@@ -1,3 +1,3 @@
 function alert() {
-  document.alert("Hola")
+  document.alert("Hola");
 }
