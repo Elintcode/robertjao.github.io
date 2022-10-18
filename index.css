@@ -47,4 +47,11 @@ nav {
   color: darkred;
   text-align: center;
 }
+#advboton {
+  color: white;
+  background: #68BBE3;
+  border-radius: 10px;
+  height: 35px;
+  font-size: 20px;
+}
 
