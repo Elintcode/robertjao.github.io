@@ -21,6 +21,7 @@ section {
     color: white;
     background: linear-gradient(to right, black, rgb(38, 35, 46));
     font-size: 25px;
+    max-width: 100%;
     padding-left: 30px;
     padding-top: 40px;
     margin-left: 5px;
