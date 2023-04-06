@@ -1,6 +1,11 @@
 body {
     background-color: rgb(38, 35, 46);
 }
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 #topbar {
     color: white;
     background: linear-gradient(rgb(98, 95, 247), rgb(103, 25, 248));
@@ -12,37 +17,44 @@ body {
     padding-left: 10px;
 }
 #name {
+    display: flex;
     color: white;
-    background-color: black;
-    font-size: 30px;
-    padding-left: 150px;
+    background: linear-gradient(to right, black, rgb(38, 35, 46));
+    font-size: 35px;
+    padding-left: 30px;
     padding-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
-    max-width: 1300px;
+    max-width: 100%;
     height: 80px;
 }
 #wall {
-    display: inline-block;
     border-radius: 10px;
     margin-left: 20px;
     max-width: 600px;
     height: 700px;
 }
 #mypic {
-    border-radius: 50%;
-    margin-left: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
+    border-radius: 50%;
     width: 300px;
 }
 h1 {
     color: white;
+    background-color: rgba(100,100,100,0.5);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    font-size: 40px;
     margin-top: 80px;
 }
 p {
     color: white;
+    background-color: rgba(100,100,100,0.5);
+    color: white;
     text-align: center;
+    font-family: sans-serif;
     font-size: large;
 }
