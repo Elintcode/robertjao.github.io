@@ -40,7 +40,7 @@ section {
     margin-right: auto;
     margin-top: 50px;
     border-radius: 50%;
-    width: 250px;
+    width: 300px;
 }
 h1 {
     color: white;
@@ -48,7 +48,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 p {
     color: white;
