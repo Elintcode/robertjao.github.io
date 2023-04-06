@@ -2,49 +2,47 @@ body {
     background-color: rgb(38, 35, 46);
 }
 #topbar {
+    color: white;
     background: linear-gradient(rgb(98, 95, 247), rgb(103, 25, 248));
+    border-radius: 7px;
+    font-size: 25px;
     height: 40px;
     margin: 20px;
-    color: white;
-    font-size: 25px;
-    border-radius: 7px;
     padding-top: 10px;
     padding-left: 10px;
 }
 #name {
-    margin-left: 100px;
+    color: white;
+    background-color: black;
     font-size: 30px;
     padding-left: 150px;
     padding-top: 30px;
-    color: white;
-    background-color: black;
-    max-width: 1300px;
+    margin-left: 20px;
     margin-right: 20px;
+    max-width: 1300px;
     height: 80px;
 }
 #wall {
-    margin-left: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 20px;
     max-width: 600px;
     height: 700px;
-    border-radius: 10px;
-    display: inline-block;
 }
 #mypic {
     border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
     width: 300px;
-    position: relative;
-    top: 45px;
-    left: 150px;
 }
 h1 {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin-top: 80px;
-
 }
 p {
-    font-size: large;
-    text-align: center;
     color: white;
+    text-align: center;
+    font-size: large;
 }
