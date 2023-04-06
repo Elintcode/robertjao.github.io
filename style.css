@@ -12,7 +12,7 @@ section {
     border-radius: 7px;
     font-size: 20px;
     height: 40px;
-    margin: 20px;
+    margin: 5px;
     padding-top: 15px;
     padding-left: 15px;
 }
@@ -23,14 +23,13 @@ section {
     font-size: 25px;
     padding-left: 30px;
     padding-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 80px;
 }
 #wall {
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
     max-width: 600px;
     height: 700px;
 }
